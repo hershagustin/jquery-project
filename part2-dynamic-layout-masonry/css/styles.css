@@ -1,0 +1,15 @@
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+    text-align: center;
+}
+
+.grid-item {
+    width: 300px;
+}
+
+img {
+     width: 100%;
+}

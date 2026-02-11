@@ -1,0 +1,70 @@
+.succulent-section {
+font-family: Arial, sans-serif;
+max-width: 800px;
+margin: 30px auto;
+padding: 20px;
+background: rgb(207, 227, 213);
+border-radius: 10px;
+}
+
+.succulent-section h2 {
+color: #2e7d32;
+}
+
+.succulent-section img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+margin: 10px;
+border-radius: 6px;
+}
+
+form {
+margin-top: 20px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.tooltip-note {
+font-size: 0.9em;
+color: #4d4c4cff;
+margin-top: 16px;
+display: flex;
+align-items: center;
+}
+
+svg{
+width: 20px;
+}
+
+.ui-tooltip {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    max-width: 250px;
+}
+
+button {
+    background-color: #2e7d32; 
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}

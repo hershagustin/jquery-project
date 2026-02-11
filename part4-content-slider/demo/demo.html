@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider Demo</title>
+    <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-dark">
+            <h2 class="fw-bold display-4 text-white">The Galaxy Slider</h2>
+            <div id="slider" class="nivoSlider">
+                <img src="images/andromeda-galaxy.jpg" data-thumb="images/andromeda-galaxy" alt="Andromeda Galaxy" title="Andromeda Galaxy - our cosmic neighbor, always watching, never waving."/>
+                <a href="#"><img src="images/earth.jpg" data-thumb="images/earth.jpg" alt="Earth" title="Earth - our little blue planet in the vast unknown." /></a>
+                <img src="images/milky-way.jpg" data-thumb="images/milky-way.jpg" alt="Milky Way" title="Milky way - where all the cool stars hang out." data-transition="slideInLeft" />
+                <img src="images/jupiter.jpg" data-thumb="images/jupiter.jpg" alt="Jupiter" title="Jupiter - larger than life."/>
+                <a href="#"><img src="images/mars.jpg" data-thumb="images/mars.jpg" alt="Mars" title="Mars - red, dusty, and possibly still holding secrets." /></a>
+                <img src="images/neptune.jpg" data-thumb="images/neptune.jpg" alt="Neptune" title="Neptune - cold, blue, and totally underrated" data-transition="slideInLeft" />
+                <img src="images/quasar.jpg" data-thumb="images/quasar.jpg" alt="Quasar" title="Quasar - one of the brightest things in the universe, far away and long ago." />
+                <img src="images/orion-nebula.jpg" data-thumb="images/orion-nebula.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <p>Orion Nebula - where stars go to be born… and shine. <a href="https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/">See NASA</a>. </p> 
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="../jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
+
+<!-- src: https://github.com/Codeinwp/Nivo-Slider-jQuery -->
+<!-- img from unsplash -->

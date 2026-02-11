@@ -1,0 +1,142 @@
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery UI Validation</title>
+
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.0.custom.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script src="js/jquery.js" type="text/javaScript"></script>
+    <script src="js/jquery-ui.js" type="text/javaScript"></script>
+    <script src="js/main.js" type="text/javaScript"></script>
+    <script src="js/validate.js" type="text/javaScript"></script>
+</head>
+<body>
+    <div id="outerWrap">
+        <div id="innerWrap">
+            <div id="header"><h1>Healthy Meal Plan</h1></div>
+
+            <div id="main">
+                <div id="mainPadding">
+                    <div id="accordion">
+                        <h3>Vegan</h3>
+                        <div>
+                            <img src="img/vegan.png" alt="A plate of vegan salad.">
+                            <p>This plan has meals made only from plants—no meat, dairy, or eggs. It’s full of fiber and good vitamins to help your body stay healthy. It’s great if you want to eat more vegetables and fruits every day.</p>
+                        </div>
+                        
+                        <h3>Keto</h3>
+                        <div>
+                            <img src="img/keto.png" alt="A plate with avocado, blueberries and egg.">
+                            <p>This plan has meals low in carbs and high in healthy fats. It helps your body use fat for energy instead of sugar. It can help with losing weight and feeling more focused.</p>
+                        </div>
+
+                        <h3>Lean & Clean</h3>
+                        <div>
+                            <img src="img/lean.png" alt="A plate of chicken breast salad.">
+                            <p>Our Clean Eating Plan focuses on whole, minimally processed foods with balanced portions of lean protein, healthy fats, and complex carbs. It’s perfect for anyone wanting to develop healthier eating habits without strict dieting. Each meal is designed to nourish your body, support energy levels, and reduce inflammation.</p>
+                        </div>
+                   
+                        <h3>High-Protein</h3>
+                        <div>
+                            <img src="img/high-protein.png" alt="A plate of grilled chicken breast with mix vegetables.">
+                            <p>The Protein Plan is built for active individuals who need higher protein intake to fuel their lifestyle. Whether you're hitting the gym or simply trying to stay fuller longer, these meals help build and maintain muscle while keeping you energized. It’s great for weight management, recovery, and strength building.</p>
+                        </div>
+                    
+                        <h3>Gluten-Free</h3>
+                        <div>
+                            <img src="img/gluten-free.png" alt="Gluten-free diet, a selection of grains and carbohydrates for people with gluten intolerance.">
+                            <p>Our Gluten-Free Plan features tasty meals that are completely free of gluten, while still being full of flavor and nutrition. Designed for those with gluten intolerance or sensitivities, this plan helps support better digestion and reduce bloating. It’s also a great option for anyone looking to eat cleaner and feel lighter.</p>
+                        </div>
+                    </div> <!--accordion-->
+
+                <div id="dialog" title="Sign Up for Healthier Options">
+                    <form id="commentForm" method="post" action="#">
+                        <fieldset>
+                            <legend>Sign up for Healthier Options</legend>
+ 
+                            <p>
+                                <label for="name">Name</label>
+                                <em>*</em><input id="name" name="name" size="25" class="required" minlength="2">
+                            </p>
+ 
+                            <p>
+                                <label for="email">Email</label>
+                                <em>*</em><input id="email" name="email" size="25" class="required email">
+                            </p>
+ 
+                            <p>
+                                <label for="url">Website URL</label>
+                                <em>&nbsp; </em><input id="url" name="url" size="25" class="required url" />
+                            </p>
+
+                            <p>
+                                <label for="creditcard">Credit Card</label>
+                                <em>*</em><input id="creditcard" name="creditcard" size="25" class="required creditcard" />
+                            </p>
+ 
+                            <p>
+                                <label for="age">Age</label>
+                                <em>&nbsp; </em><input id="age" name="age" class="required digits" />
+                            </p>
+ 
+                            <p>
+                                <label for="comment">Your comment</label>
+                                <em>&nbsp; </em><textarea id="comment" name="comment" cols="22"  class="required"></textarea>
+                            </p>
+ 
+                            <p>
+                                <label for="password">Password</label>
+                                <em>*</em><input type="password" id="password" name="password" minlength="6" class="required" />
+                            </p>
+ 
+                            <p>
+                                <label for="password_again">Password Again</label>
+                                <em>*</em><input type="password" class="left" id="password_again"  name="password_again" equalTo="#password" />
+                            </p>
+ 
+                            <p>
+                                <input class="submit" type="submit" value="Submit"/>
+                            </p>
+                        </fieldset>
+                    </form>
+
+                </div><!--dialog-->
+                <button id="opener">Sign Up</button>
+                </div> <!--mainpadding-->
+            </div> <!--main-->
+
+            <div id="sidebar">
+    
+                <div id="sidebarHeading">About Us</div>
+                    <p>
+                        <a href="#">Our Mission</a> |
+                        <a href="#">Meet the Team</a> |
+                        <a href="#">Why Choose Us</a>
+                    </p>
+    
+                <div id="sidebarHeading">How It Works</div>
+                    <ul>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">Delivery Info</a></li>  
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+        
+                <div id="sidebarHeading">Resources</div>
+                    <ul>
+                        <li><a href="#">Healthy Eating Tips</a></li>
+                        <li><a href="#">Recipes</a></li>  
+                        <li><a href="#">Nutrition Articles</a></li>
+                    </ul>
+                </p>
+            </div><!--Sidebar div closed-->
+        </div> <!--innerwrap-->
+    </div> <!--outerwrap-->
+    
+</body>
+</html>
+
+<!-- imgs from canva -->
