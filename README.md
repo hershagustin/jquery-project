@@ -55,4 +55,5 @@ All features are original implementations using **PHP**, **MySQL**, and **jQuery
 - **Masonry / Isotope Layouts**
 
 # DEMO WEBSITE  - https://hershagustin.com/portfolio/part4-content-slider/demo/demo.html
-                - https://hershagustin.com/portfolio/part2-dynamic-layout-masonry/
+
+# DEMO WEBSITE  - https://hershagustin.com/portfolio/part2-dynamic-layout-masonry/
